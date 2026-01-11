@@ -2,7 +2,7 @@ use ferris_says::say; // from the previous step
 use std::io::{stdout, BufWriter};
 
 fn main() {
-    println!("Hello, world!");
+    println!("Hello, world from VS-Code!");
     let stdout = stdout();
     let message = String::from("Hello fellow Rustaceans!");
     let width = message.chars().count();
